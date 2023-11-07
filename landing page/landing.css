@@ -1,0 +1,43 @@
+body{
+    background-image: url(Mask\ group.png);
+    height: 830px;
+    
+}
+header{
+    border-radius: 100px;
+    background-color: rgb(175, 175, 175);
+}
+#navbar{
+    border-radius: 50px;
+}
+#eu{
+    width: 162px;
+    height: 167px;
+    border-radius: 167px;
+    background: url(eu.png), lightgray 50% / cover no-repeat;
+}
+h1{
+    color: white;
+}
+#diva{
+    color: white;
+    text-align: center;
+}
+#text{
+    width: 50%;
+    color: white;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    border: solid 1px;
+}
+#html{
+    width: 50px;
+}
