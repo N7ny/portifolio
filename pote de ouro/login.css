@@ -1,0 +1,41 @@
+
+#nav{
+    background-color: rgb(235,191,83);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#user{
+    position: fixed;
+    right: 0px;
+    font-size: 18px;
+    width: 10%;
+}
+#login{
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    width: 924px;
+    height: 531px;
+    display: absolute;
+    padding: 100px 350px;
+    text-align: center;
+}
+#botao{
+    background-color: rgb(4, 183, 4);
+    color: white;
+    border:1px solid black;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    border: solid 1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

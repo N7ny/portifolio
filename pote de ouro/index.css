@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231002/pngtree-secured-wealth-3d-render-illustration-depicting-safety-with-gold-coins-and-image_13545442.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 130vh;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+#nav {
+    background-color: rgb(235, 191, 83);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+input {
+    border: 5px;
+    border-radius: 10px;
+}
+
+#icon {
+    width: 45%;
+}
+
+#user {
+    position: fixed;
+    right: 0px;
+    font-size: 18px;
+    width: 10%;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(5, 188, 5);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#lepra {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    border: solid 1;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: absolute;
+    padding: 209px 239px;
+    text-align: center;
+    font-size: large;
+}
+
+input:focus {
+    background-color: greenyellow;
+}
+
+input {
+    width: 80%;
+    height: 80%;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#card1 {
+    height: auto;
+    width: 50px;
+    margin: 5px;
+    text-align:  center;
+}
+#valor{
+    color: white;
+    background-color: rgb(5, 188, 5);
+    border: solid 1px;
+}
