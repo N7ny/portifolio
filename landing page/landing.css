@@ -1,11 +1,11 @@
 body{
-    background-image: url(Mask\ group.png);
+    background-image: url(fundo.png);
+    background-size: cover;
     height: 830px;
-    
 }
 header{
     border-radius: 100px;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(79, 79, 79);
 }
 #navbar{
     border-radius: 50px;
@@ -14,7 +14,7 @@ header{
     width: 162px;
     height: 167px;
     border-radius: 167px;
-    background: url(eu.png), lightgray 50% / cover no-repeat;
+    background: url(C:\Users\Windows11\Desktop\portifolio\landing-page\eu.png), lightgray 50% / cover no-repeat;
 }
 h1{
     color: white;
