@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2e782;
+  margin: 0;
+  padding: 0;
+}
+
+.pokedex {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f73f3f;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dino-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dino-card {
+  justify-content: center;
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dino-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.dino-card h3 {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  background: linear-gradient(to bottom, #f2e782, #ec6363); 
+  display: flex; 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+li{
+  margin-inline-start: 1;
+}
