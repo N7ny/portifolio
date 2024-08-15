@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ifyspot</title>
+</head>
+
+<body>
+    <form>
+        <label for="inputText1">Nome da música:</label>
+        <input type="text" id="inputText1" placeholder="Digite o nome da música">
+        <br><br>
+        <label for="inputText2">Nome do artista:</label>
+        <input type="text" id="inputText2" placeholder="Digite o nome do artista">
+        <button class="go-button"><a href="letra.html">com letra</a></button>
+    </form>
+    <div class="backgrand">
+        <div class="fundo">
+            <div class="music1">
+                <div class="music2"> <br>
+                    <img src="music-1967480_1280.png" alt=""> <br>
+                    <div class="nomes" id="outputDiv1">
+                        music name
+                    </div>
+                    <div class="nomes2" id="outputDiv2">
+                        artista
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const inputField1 = document.getElementById('inputText1');
+        const outputDiv1 = document.getElementById('outputDiv1');
+
+        const inputField2 = document.getElementById('inputText2');
+        const outputDiv2 = document.getElementById('outputDiv2');
+
+        inputField1.addEventListener('input', function () {
+            outputDiv1.firstChild.textContent = inputField1.value;
+        });
+
+        inputField2.addEventListener('input', function () {
+            outputDiv2.textContent = inputField2.value;
+        });
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Moderustic:wght@300..800&display=swap"
+        rel="stylesheet">
+</body>
+
+</html>

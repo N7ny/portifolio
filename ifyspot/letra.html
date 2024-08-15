@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="letra.css">
+    <title>ifyspot</title>
+
+</head>
+
+<body>
+    <form>
+        <button class="back-button"><a href="index.html">voltar</a></button>
+        <label for="inputText1">Digite o nome da música:</label>
+        <input type="text" id="inputText1" placeholder="Digite aqui"> <br>
+
+        <label for="inputText2">Digite o nome do artista:</label>
+        <input type="text" id="inputText2" placeholder="Digite aqui"> <br>
+
+        <label for="inputText3">Digite a letra:</label>
+        <textarea id="inputText3" placeholder="máximo 80 caracteres" maxlength="80"></textarea>
+
+    </form>
+    
+    <div class="backgrand">
+        <div class="music">
+            <div class="fundo">
+                    <div class="imagem">
+                        <img src="music-1967480_1280.png" alt="">
+                        <div class="nomes" id="outputDiv1">
+                            Nome da música <br>
+                            <div class="nomes2" id="outputDiv2">
+                                Nome do artista
+                            </div>
+                            <div class="letra" id="outputDiv3">
+                                Letra
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        <script>
+            const inputField1 = document.getElementById('inputText1');
+            const outputDiv1 = document.getElementById('outputDiv1');
+
+            const inputField2 = document.getElementById('inputText2');
+            const outputDiv2 = document.getElementById('outputDiv2');
+
+            const inputField3 = document.getElementById('inputText3');
+            const outputDiv3 = document.getElementById('outputDiv3');
+            const charCount = document.getElementById('charCount');
+
+            inputField1.addEventListener('input', function () {
+                outputDiv1.firstChild.textContent = inputField1.value;
+            });
+
+            inputField2.addEventListener('input', function () {
+                outputDiv2.textContent = inputField2.value;
+            });
+
+            inputField3.addEventListener('input', function () {
+                outputDiv3.textContent = inputField3.value;
+                charCount.textContent = `${inputField3.value.length}80 caracteres`;
+            });
+        </script>
+</body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Moderustic:wght@300..800&display=swap"
+    rel="stylesheet">
+
+</html>

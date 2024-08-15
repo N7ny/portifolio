@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Moderustic", sans-serif;
+}
+.backgrand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+img {
+    margin-left: 23px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+}
+.fundo{
+    background-color: rgba(77, 76, 76, 0.578);
+    width: 400px;
+    height: 440px;
+    margin-top: 80px;
+}
+.music1 {
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 255px;
+    height: 300px;
+    border-radius: 5%;
+    margin-left: 66px;
+    margin-top: 62px;
+}
+
+.music2 {
+    color: white;
+    
+}
+
+.nomes {
+    margin-right: 122px;
+    margin-top: 20px;
+}
+
+.nomes2 {
+    margin-right: 38px;
+    color: rgb(214, 214, 214);
+}
+a{
+    color: white;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #5cff43;
+    outline: none;
+    box-shadow: 0 0 5px rgba(73, 255, 67, 0.5);
+}
+.go-button {
+    background-color: #43ff59;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.go-button:hover {
+    background-color: #159a0c;
+}
+
+.go-button:focus {
+    outline: none;
+}
+
+.go-button::before {
+    content: '\2192'; /* Código Unicode*/
+    font-size: 1.2em;
+    margin-right: 5px;
+}
